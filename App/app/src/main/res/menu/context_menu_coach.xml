@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/winners"
+        android:title="Winners"
+        />
+    <item
+        android:id="@+id/mp"
+        android:title="MP"
+        />
+    <item
+        android:id="@+id/reduco"
+        android:title="Reduco"
+        />
+
+</menu>

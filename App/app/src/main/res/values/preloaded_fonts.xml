@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta</item>
+        <item>@font/amiko</item>
+        <item>@font/andada</item>
+        <item>@font/imprima</item>
+        <item>@font/raleway</item>
+        <item>@font/raleway_medium</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

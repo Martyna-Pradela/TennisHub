@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tenis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name2"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tenis">
+        <activity android:name=".Reduco" />
+        <activity android:name=".Mp" />
+        <activity android:name=".FindCourtRez" />
+        <activity android:name=".FindCourt" />
+        <activity android:name=".FindClub" />
+        <activity android:name=".Message" />
+        <activity
+            android:name=".Chat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FindCoach" />
+        <activity android:name=".Favourite" />
+        <activity android:name=".FindPlayer" />
+        <activity android:name=".LogOutPlayer" />
+        <activity android:name=".StatisticsPlayer" />
+        <activity android:name=".HistoryPlayer" />
+        <activity android:name=".ProfilPlayer" />
+        <activity android:name=".Winners" />
+        <activity
+            android:name=".MainPlayer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistrationCoach" />
+        <activity
+            android:name=".Choose"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistrationPlayer" />
+        <activity
+            android:name=".LogIn"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
